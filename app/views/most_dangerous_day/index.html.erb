@@ -1,0 +1,14 @@
+"Most Dangerous Day"
+</br>
+<%=@facade.date_range%>
+</br>
+<%=@facade.dangerous_day. each do |danger_day|%>
+
+ Name:  <%= danger_day.name %>
+  </br>
+ NEO Reference ID:  <%= danger_day.neo_id %>
+<%end%>
+
+  
+  
+  
