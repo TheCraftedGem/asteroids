@@ -27,4 +27,5 @@ class MostDangerousDayFacade
   def date_range
     "#{@start_date} - #{@end_date}"
   end
+  
 end
